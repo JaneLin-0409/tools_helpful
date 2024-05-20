@@ -1,3 +1,5 @@
+reference: https://gist.github.com/padeoe/697678ab8e528b85a2a7bddafea1fa4f
+
 # 🤗Huggingface Model Downloader
 
 Considering the lack of multi-threaded download support in the official [`huggingface-cli`](https://huggingface.co/docs/huggingface_hub/guides/download#download-from-the-cli), and the inadequate error handling in [`hf_transfer`](https://github.com/huggingface/hf_transfer), this command-line tool smartly utilizes `wget` or `aria2` for LFS files and `git clone` for the rest.
@@ -12,7 +14,7 @@ Considering the lack of multi-threaded download support in the official [`huggin
 - 📦 **Simple**: Only depend on `git`, `aria2c/wget`.
 
 ## Usage
-First, Download [`hfd.sh`](#file-hfd-sh) or clone this repo, and then grant execution permission to the script.
+First, Download [`hfd.sh`](#file-hfd-sh) or clone this repo or copy codes as follow, and then grant execution permission to the script.
 ```shell
 #!/usr/bin/env bash
 # Color definitions
