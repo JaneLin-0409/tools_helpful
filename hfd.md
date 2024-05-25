@@ -57,7 +57,8 @@ MODEL_ID=$1
 shift
 
 # Default values
-TOOL="aria2c"
+# TOOL="aria2c"
+TOOL="wget"
 THREADS=4
 HF_ENDPOINT=${HF_ENDPOINT:-"https://huggingface.co"}
 
